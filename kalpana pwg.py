@@ -8,6 +8,7 @@ def pwd():
     digitD=string.digits
     symbolsD=string.punctuation
     combine=lowerD+upperD+digitD+symbolsD
+    combine+=combine
     x=random.sample(combine,length)
     password="".join(x)
     print(password)
