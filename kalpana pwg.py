@@ -1,7 +1,7 @@
 import random
 import string
 print("welcome to our Random Password Generator")
-def pwd():
+def my_function():
     length=int(input("Enter the length of password you want: "))
     lowerD=string.ascii_lowercase
     upperD=string.ascii_uppercase
@@ -12,5 +12,5 @@ def pwd():
     x=random.sample(combine,length)
     password="".join(x)
     print(password)
-    pwd()
-pwd()
+    my_function()
+my_function()
